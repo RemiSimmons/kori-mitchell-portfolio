@@ -498,6 +498,20 @@ ul {
   min-width: 160px;
 }
 
+.experience-hero-img {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 48px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.experience-hero-img img {
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+  object-position: center;
+}
+
 .experience-date {
   display: block;
   font-size: 0.85rem;
@@ -537,6 +551,25 @@ ul {
   font-weight: 700;
   margin-bottom: 16px;
   color: var(--color-text-light);
+}
+
+.skills-category-img {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.skills-category-img img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  transition: transform var(--transition-smooth);
+}
+
+.skills-category-img:hover img {
+  transform: scale(1.03);
 }
 
 .skill-tags {
